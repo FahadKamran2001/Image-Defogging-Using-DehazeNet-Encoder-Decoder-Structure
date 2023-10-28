@@ -1,0 +1,48 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.navbarLogo
+{
+    margin-left: 3rem;
+}
+.navbarLinks
+{
+    margin-left: auto;
+    margin-right: 5rem;
+    padding: 1.5rem 0;
+}
+.navbarLinks ul
+{
+    display: flex;
+    align-items: center;
+}
+
+.navbarLinks li
+{
+    list-style-type: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+}
+
+.navbarLinks li a{
+    text-decoration: none;
+    color: #2d3436;
+}
+
+.contactUsBtn
+{
+    background-color: #b33939;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.activeNav
+{
+    border-bottom: 3px solid #b33939;
+}

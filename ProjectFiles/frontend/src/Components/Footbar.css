@@ -1,0 +1,23 @@
+.footbarContainer
+{
+    text-align: center;
+    margin: 0 2rem;
+    background-color: #f4f4f4;
+    color: #8c7c23;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5rem 0;
+    margin-top: 3.5rem;
+}
+
+.footbarContainer h4
+{
+    font-size: 2rem;font-family: 'Bacasime Antique', serif;
+    margin-bottom: 1rem;
+}
+
+.footbarContainer p
+{
+    padding: 0 25rem;
+    line-height: 1.8rem;
+    opacity: 70%;
+}

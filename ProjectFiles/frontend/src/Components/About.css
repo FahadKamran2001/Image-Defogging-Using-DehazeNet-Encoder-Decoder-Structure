@@ -1,0 +1,52 @@
+.aboutCont
+{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transform: translateY(-101px);
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3393954;
+}
+.aboutCont h1
+{
+    transform: translateY(-50px);
+    font-size: 4rem;
+    font-family: 'Bacasime Antique', serif;
+}
+.aboutContent
+{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    transform: translateY(-330px);
+}
+
+.aboutContentText p
+{
+    margin-top: 2rem;
+    line-height: 2rem;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.extraDiv
+{
+    min-height: 115vh;
+}
+.firstExtraDiv
+{
+    min-height: 70vh;
+}
+
+
+.has-dropcap:first-letter {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 6rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.1rem 0;
+  }

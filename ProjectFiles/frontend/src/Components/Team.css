@@ -1,0 +1,71 @@
+.teamContainer
+{
+    background-image: url("../media/teamImage.jpg");
+    min-height: 55vh;
+    background-size: cover;
+    margin: 0 2rem;
+}
+.teamInnerContainer
+{
+    background-color: rgba(0, 0, 0, 0.112);
+    height: 55vh;
+}
+
+.carouselImage {
+  width: 5rem;
+}
+
+/* Team.css */
+
+.teamMainPage
+{
+  border: 1px solid white;
+  background-color: #f5f7fa;
+
+}
+.teamMainPage h1
+{
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 3rem;
+}
+
+.teamMembersContainer {
+  position: relative;
+  width: 70%;
+  left: 15%;
+  margin: 0rem 0 5rem;
+}
+
+.carouselCard
+{
+  background-color: white;
+  margin: 0 1rem;
+  height: 30rem;
+}
+
+.carouselCard img
+{
+  margin-bottom: .9rem;
+}
+
+.carouselCard a
+{
+  color: #2d3436;
+}
+
+.userName, .status
+{
+  text-align: left;
+}
+
+.carouselCard h2, .carouselCard p
+{
+   padding-top: 1rem;
+   padding-left: 1.5rem;
+}
+
+.profileLink
+{
+  margin-top: .7rem;
+}
